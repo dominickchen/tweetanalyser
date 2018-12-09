@@ -1,0 +1,468 @@
+current directory: /Users/dominiquechen/workspace/vendor/bundle/ruby/2.5.0/gems/mecab-0.996/ext/mecab
+/Users/dominiquechen/.rbenv/versions/2.5.3/bin/ruby -r ./siteconf20181207-15158-lcg35f.rb extconf.rb
+checking for make... yes
+checking for -lstdc++... yes
+checking for -lmecab... yes
+checking for -lstdc++... yes
+checking for mecab.h... yes
+creating Makefile
+
+current directory: /Users/dominiquechen/workspace/vendor/bundle/ruby/2.5.0/gems/mecab-0.996/ext/mecab
+make "DESTDIR=" clean
+
+current directory: /Users/dominiquechen/workspace/vendor/bundle/ruby/2.5.0/gems/mecab-0.996/ext/mecab
+make "DESTDIR="
+compiling mecab_wrap.cpp
+mecab_wrap.cpp:1862:9: warning: 'rb_str_new' macro redefined [-Wmacro-redefined]
+#define rb_str_new rb_external_str_new
+        ^
+/Users/dominiquechen/.rbenv/versions/2.5.3/include/ruby-2.5.0/ruby/intern.h:773:9: note: previous definition is here
+#define rb_str_new(str, len) RB_GNUC_EXTENSION_BLOCK(   \
+        ^
+mecab_wrap.cpp:2019:9: warning: unused variable 'type' [-Wunused-variable]
+  VALUE type = TYPE(obj);
+        ^
+mecab_wrap.cpp:2500:18: warning: exception of type 'const char *' will be caught by earlier handler [-Wexceptions]
+    catch (const char *e) {
+                 ^
+mecab_wrap.cpp:2497:12: note: for type 'char *'
+    catch (char *e) {
+           ^
+mecab_wrap.cpp:3248:18: warning: exception of type 'const char *' will be caught by earlier handler [-Wexceptions]
+    catch (const char *e) {
+                 ^
+mecab_wrap.cpp:3245:12: note: for type 'char *'
+    catch (char *e) {
+           ^
+mecab_wrap.cpp:3283:18: warning: exception of type 'const char *' will be caught by earlier handler [-Wexceptions]
+    catch (const char *e) {
+                 ^
+mecab_wrap.cpp:3280:12: note: for type 'char *'
+    catch (char *e) {
+           ^
+mecab_wrap.cpp:3316:18: warning: exception of type 'const char *' will be caught by earlier handler [-Wexceptions]
+    catch (const char *e) {
+                 ^
+mecab_wrap.cpp:3313:12: note: for type 'char *'
+    catch (char *e) {
+           ^
+mecab_wrap.cpp:3350:18: warning: exception of type 'const char *' will be caught by earlier handler [-Wexceptions]
+    catch (const char *e) {
+                 ^
+mecab_wrap.cpp:3347:12: note: for type 'char *'
+    catch (char *e) {
+           ^
+mecab_wrap.cpp:3384:18: warning: exception of type 'const char *' will be caught by earlier handler [-Wexceptions]
+    catch (const char *e) {
+                 ^
+mecab_wrap.cpp:3381:12: note: for type 'char *'
+    catch (char *e) {
+           ^
+mecab_wrap.cpp:3426:18: warning: exception of type 'const char *' will be caught by earlier handler [-Wexceptions]
+    catch (const char *e) {
+                 ^
+mecab_wrap.cpp:3423:12: note: for type 'char *'
+    catch (char *e) {
+           ^
+mecab_wrap.cpp:3468:18: warning: exception of type 'const char *' will be caught by earlier handler [-Wexceptions]
+    catch (const char *e) {
+                 ^
+mecab_wrap.cpp:3465:12: note: for type 'char *'
+    catch (char *e) {
+           ^
+mecab_wrap.cpp:3502:18: warning: exception of type 'const char *' will be caught by earlier handler [-Wexceptions]
+    catch (const char *e) {
+                 ^
+mecab_wrap.cpp:3499:12: note: for type 'char *'
+    catch (char *e) {
+           ^
+mecab_wrap.cpp:3545:18: warning: exception of type 'const char *' will be caught by earlier handler [-Wexceptions]
+    catch (const char *e) {
+                 ^
+mecab_wrap.cpp:3542:12: note: for type 'char *'
+    catch (char *e) {
+           ^
+mecab_wrap.cpp:3585:18: warning: exception of type 'const char *' will be caught by earlier handler [-Wexceptions]
+    catch (const char *e) {
+                 ^
+mecab_wrap.cpp:3582:12: note: for type 'char *'
+    catch (char *e) {
+           ^
+mecab_wrap.cpp:3618:18: warning: exception of type 'const char *' will be caught by earlier handler [-Wexceptions]
+    catch (const char *e) {
+                 ^
+mecab_wrap.cpp:3615:12: note: for type 'char *'
+    catch (char *e) {
+           ^
+mecab_wrap.cpp:3658:18: warning: exception of type 'const char *' will be caught by earlier handler [-Wexceptions]
+    catch (const char *e) {
+                 ^
+mecab_wrap.cpp:3655:12: note: for type 'char *'
+    catch (char *e) {
+           ^
+mecab_wrap.cpp:3691:18: warning: exception of type 'const char *' will be caught by earlier handler [-Wexceptions]
+    catch (const char *e) {
+                 ^
+mecab_wrap.cpp:3688:12: note: for type 'char *'
+    catch (char *e) {
+           ^
+mecab_wrap.cpp:3725:18: warning: exception of type 'const char *' will be caught by earlier handler [-Wexceptions]
+    catch (const char *e) {
+                 ^
+mecab_wrap.cpp:3722:12: note: for type 'char *'
+    catch (char *e) {
+           ^
+mecab_wrap.cpp:3759:18: warning: exception of type 'const char *' will be caught by earlier handler [-Wexceptions]
+    catch (const char *e) {
+                 ^
+mecab_wrap.cpp:3756:12: note: for type 'char *'
+    catch (char *e) {
+           ^
+mecab_wrap.cpp:3801:18: warning: exception of type 'const char *' will be caught by earlier handler [-Wexceptions]
+    catch (const char *e) {
+                 ^
+mecab_wrap.cpp:3798:12: note: for type 'char *'
+    catch (char *e) {
+           ^
+mecab_wrap.cpp:3841:18: warning: exception of type 'const char *' will be caught by earlier handler [-Wexceptions]
+    catch (const char *e) {
+                 ^
+mecab_wrap.cpp:3838:12: note: for type 'char *'
+    catch (char *e) {
+           ^
+mecab_wrap.cpp:3880:18: warning: exception of type 'const char *' will be caught by earlier handler [-Wexceptions]
+    catch (const char *e) {
+                 ^
+mecab_wrap.cpp:3877:12: note: for type 'char *'
+    catch (char *e) {
+           ^
+mecab_wrap.cpp:3919:18: warning: exception of type 'const char *' will be caught by earlier handler [-Wexceptions]
+    catch (const char *e) {
+                 ^
+mecab_wrap.cpp:3916:12: note: for type 'char *'
+    catch (char *e) {
+           ^
+mecab_wrap.cpp:3952:18: warning: exception of type 'const char *' will be caught by earlier handler [-Wexceptions]
+    catch (const char *e) {
+                 ^
+mecab_wrap.cpp:3949:12: note: for type 'char *'
+    catch (char *e) {
+           ^
+mecab_wrap.cpp:3986:18: warning: exception of type 'const char *' will be caught by earlier handler [-Wexceptions]
+    catch (const char *e) {
+                 ^
+mecab_wrap.cpp:3983:12: note: for type 'char *'
+    catch (char *e) {
+           ^
+mecab_wrap.cpp:4028:18: warning: exception of type 'const char *' will be caught by earlier handler [-Wexceptions]
+    catch (const char *e) {
+                 ^
+mecab_wrap.cpp:4025:12: note: for type 'char *'
+    catch (char *e) {
+           ^
+mecab_wrap.cpp:4114:18: warning: exception of type 'const char *' will be caught by earlier handler [-Wexceptions]
+    catch (const char *e) {
+                 ^
+mecab_wrap.cpp:4111:12: note: for type 'char *'
+    catch (char *e) {
+           ^
+mecab_wrap.cpp:4148:18: warning: exception of type 'const char *' will be caught by earlier handler [-Wexceptions]
+    catch (const char *e) {
+                 ^
+mecab_wrap.cpp:4145:12: note: for type 'char *'
+    catch (char *e) {
+           ^
+mecab_wrap.cpp:4190:18: warning: exception of type 'const char *' will be caught by earlier handler [-Wexceptions]
+    catch (const char *e) {
+                 ^
+mecab_wrap.cpp:4187:12: note: for type 'char *'
+    catch (char *e) {
+           ^
+mecab_wrap.cpp:4232:18: warning: exception of type 'const char *' will be caught by earlier handler [-Wexceptions]
+    catch (const char *e) {
+                 ^
+mecab_wrap.cpp:4229:12: note: for type 'char *'
+    catch (char *e) {
+           ^
+mecab_wrap.cpp:4280:18: warning: exception of type 'const char *' will be caught by earlier handler [-Wexceptions]
+    catch (const char *e) {
+                 ^
+mecab_wrap.cpp:4277:12: note: for type 'char *'
+    catch (char *e) {
+           ^
+mecab_wrap.cpp:4336:18: warning: exception of type 'const char *' will be caught by earlier handler [-Wexceptions]
+    catch (const char *e) {
+                 ^
+mecab_wrap.cpp:4333:12: note: for type 'char *'
+    catch (char *e) {
+           ^
+mecab_wrap.cpp:4378:18: warning: exception of type 'const char *' will be caught by earlier handler [-Wexceptions]
+    catch (const char *e) {
+                 ^
+mecab_wrap.cpp:4375:12: note: for type 'char *'
+    catch (char *e) {
+           ^
+mecab_wrap.cpp:4413:18: warning: exception of type 'const char *' will be caught by earlier handler [-Wexceptions]
+    catch (const char *e) {
+                 ^
+mecab_wrap.cpp:4410:12: note: for type 'char *'
+    catch (char *e) {
+           ^
+mecab_wrap.cpp:4454:18: warning: exception of type 'const char *' will be caught by earlier handler [-Wexceptions]
+    catch (const char *e) {
+                 ^
+mecab_wrap.cpp:4451:12: note: for type 'char *'
+    catch (char *e) {
+           ^
+mecab_wrap.cpp:4503:18: warning: exception of type 'const char *' will be caught by earlier handler [-Wexceptions]
+    catch (const char *e) {
+                 ^
+mecab_wrap.cpp:4500:12: note: for type 'char *'
+    catch (char *e) {
+           ^
+mecab_wrap.cpp:4543:18: warning: exception of type 'const char *' will be caught by earlier handler [-Wexceptions]
+    catch (const char *e) {
+                 ^
+mecab_wrap.cpp:4540:12: note: for type 'char *'
+    catch (char *e) {
+           ^
+mecab_wrap.cpp:4580:18: warning: exception of type 'const char *' will be caught by earlier handler [-Wexceptions]
+    catch (const char *e) {
+                 ^
+mecab_wrap.cpp:4577:12: note: for type 'char *'
+    catch (char *e) {
+           ^
+mecab_wrap.cpp:4630:18: warning: exception of type 'const char *' will be caught by earlier handler [-Wexceptions]
+    catch (const char *e) {
+                 ^
+mecab_wrap.cpp:4627:12: note: for type 'char *'
+    catch (char *e) {
+           ^
+mecab_wrap.cpp:4690:18: warning: exception of type 'const char *' will be caught by earlier handler [-Wexceptions]
+    catch (const char *e) {
+                 ^
+mecab_wrap.cpp:4687:12: note: for type 'char *'
+    catch (char *e) {
+           ^
+mecab_wrap.cpp:4728:18: warning: exception of type 'const char *' will be caught by earlier handler [-Wexceptions]
+    catch (const char *e) {
+                 ^
+mecab_wrap.cpp:4725:12: note: for type 'char *'
+    catch (char *e) {
+           ^
+mecab_wrap.cpp:4762:18: warning: exception of type 'const char *' will be caught by earlier handler [-Wexceptions]
+    catch (const char *e) {
+                 ^
+mecab_wrap.cpp:4759:12: note: for type 'char *'
+    catch (char *e) {
+           ^
+mecab_wrap.cpp:4804:18: warning: exception of type 'const char *' will be caught by earlier handler [-Wexceptions]
+    catch (const char *e) {
+                 ^
+mecab_wrap.cpp:4801:12: note: for type 'char *'
+    catch (char *e) {
+           ^
+mecab_wrap.cpp:4830:18: warning: exception of type 'const char *' will be caught by earlier handler [-Wexceptions]
+    catch (const char *e) {
+                 ^
+mecab_wrap.cpp:4827:12: note: for type 'char *'
+    catch (char *e) {
+           ^
+mecab_wrap.cpp:4877:18: warning: exception of type 'const char *' will be caught by earlier handler [-Wexceptions]
+    catch (const char *e) {
+                 ^
+mecab_wrap.cpp:4874:12: note: for type 'char *'
+    catch (char *e) {
+           ^
+mecab_wrap.cpp:4912:18: warning: exception of type 'const char *' will be caught by earlier handler [-Wexceptions]
+    catch (const char *e) {
+                 ^
+mecab_wrap.cpp:4909:12: note: for type 'char *'
+    catch (char *e) {
+           ^
+mecab_wrap.cpp:4992:18: warning: exception of type 'const char *' will be caught by earlier handler [-Wexceptions]
+    catch (const char *e) {
+                 ^
+mecab_wrap.cpp:4989:12: note: for type 'char *'
+    catch (char *e) {
+           ^
+mecab_wrap.cpp:5036:18: warning: exception of type 'const char *' will be caught by earlier handler [-Wexceptions]
+    catch (const char *e) {
+                 ^
+mecab_wrap.cpp:5033:12: note: for type 'char *'
+    catch (char *e) {
+           ^
+mecab_wrap.cpp:5113:18: warning: exception of type 'const char *' will be caught by earlier handler [-Wexceptions]
+    catch (const char *e) {
+                 ^
+mecab_wrap.cpp:5110:12: note: for type 'char *'
+    catch (char *e) {
+           ^
+mecab_wrap.cpp:5155:18: warning: exception of type 'const char *' will be caught by earlier handler [-Wexceptions]
+    catch (const char *e) {
+                 ^
+mecab_wrap.cpp:5152:12: note: for type 'char *'
+    catch (char *e) {
+           ^
+mecab_wrap.cpp:5198:18: warning: exception of type 'const char *' will be caught by earlier handler [-Wexceptions]
+    catch (const char *e) {
+                 ^
+mecab_wrap.cpp:5195:12: note: for type 'char *'
+    catch (char *e) {
+           ^
+mecab_wrap.cpp:5306:18: warning: exception of type 'const char *' will be caught by earlier handler [-Wexceptions]
+    catch (const char *e) {
+                 ^
+mecab_wrap.cpp:5303:12: note: for type 'char *'
+    catch (char *e) {
+           ^
+mecab_wrap.cpp:5359:18: warning: exception of type 'const char *' will be caught by earlier handler [-Wexceptions]
+    catch (const char *e) {
+                 ^
+mecab_wrap.cpp:5356:12: note: for type 'char *'
+    catch (char *e) {
+           ^
+mecab_wrap.cpp:5404:18: warning: exception of type 'const char *' will be caught by earlier handler [-Wexceptions]
+    catch (const char *e) {
+                 ^
+mecab_wrap.cpp:5401:12: note: for type 'char *'
+    catch (char *e) {
+           ^
+mecab_wrap.cpp:5440:18: warning: exception of type 'const char *' will be caught by earlier handler [-Wexceptions]
+    catch (const char *e) {
+                 ^
+mecab_wrap.cpp:5437:12: note: for type 'char *'
+    catch (char *e) {
+           ^
+mecab_wrap.cpp:5474:18: warning: exception of type 'const char *' will be caught by earlier handler [-Wexceptions]
+    catch (const char *e) {
+                 ^
+mecab_wrap.cpp:5471:12: note: for type 'char *'
+    catch (char *e) {
+           ^
+mecab_wrap.cpp:5516:18: warning: exception of type 'const char *' will be caught by earlier handler [-Wexceptions]
+    catch (const char *e) {
+                 ^
+mecab_wrap.cpp:5513:12: note: for type 'char *'
+    catch (char *e) {
+           ^
+mecab_wrap.cpp:5556:18: warning: exception of type 'const char *' will be caught by earlier handler [-Wexceptions]
+    catch (const char *e) {
+                 ^
+mecab_wrap.cpp:5553:12: note: for type 'char *'
+    catch (char *e) {
+           ^
+mecab_wrap.cpp:5589:18: warning: exception of type 'const char *' will be caught by earlier handler [-Wexceptions]
+    catch (const char *e) {
+                 ^
+mecab_wrap.cpp:5586:12: note: for type 'char *'
+    catch (char *e) {
+           ^
+mecab_wrap.cpp:5623:18: warning: exception of type 'const char *' will be caught by earlier handler [-Wexceptions]
+    catch (const char *e) {
+                 ^
+mecab_wrap.cpp:5620:12: note: for type 'char *'
+    catch (char *e) {
+           ^
+mecab_wrap.cpp:5663:18: warning: exception of type 'const char *' will be caught by earlier handler [-Wexceptions]
+    catch (const char *e) {
+                 ^
+mecab_wrap.cpp:5660:12: note: for type 'char *'
+    catch (char *e) {
+           ^
+mecab_wrap.cpp:5696:18: warning: exception of type 'const char *' will be caught by earlier handler [-Wexceptions]
+    catch (const char *e) {
+                 ^
+mecab_wrap.cpp:5693:12: note: for type 'char *'
+    catch (char *e) {
+           ^
+mecab_wrap.cpp:5736:18: warning: exception of type 'const char *' will be caught by earlier handler [-Wexceptions]
+    catch (const char *e) {
+                 ^
+mecab_wrap.cpp:5733:12: note: for type 'char *'
+    catch (char *e) {
+           ^
+mecab_wrap.cpp:5769:18: warning: exception of type 'const char *' will be caught by earlier handler [-Wexceptions]
+    catch (const char *e) {
+                 ^
+mecab_wrap.cpp:5766:12: note: for type 'char *'
+    catch (char *e) {
+           ^
+mecab_wrap.cpp:5809:18: warning: exception of type 'const char *' will be caught by earlier handler [-Wexceptions]
+    catch (const char *e) {
+                 ^
+mecab_wrap.cpp:5806:12: note: for type 'char *'
+    catch (char *e) {
+           ^
+mecab_wrap.cpp:5848:18: warning: exception of type 'const char *' will be caught by earlier handler [-Wexceptions]
+    catch (const char *e) {
+                 ^
+mecab_wrap.cpp:5845:12: note: for type 'char *'
+    catch (char *e) {
+           ^
+mecab_wrap.cpp:5881:18: warning: exception of type 'const char *' will be caught by earlier handler [-Wexceptions]
+    catch (const char *e) {
+                 ^
+mecab_wrap.cpp:5878:12: note: for type 'char *'
+    catch (char *e) {
+           ^
+mecab_wrap.cpp:5915:18: warning: exception of type 'const char *' will be caught by earlier handler [-Wexceptions]
+    catch (const char *e) {
+                 ^
+mecab_wrap.cpp:5912:12: note: for type 'char *'
+    catch (char *e) {
+           ^
+mecab_wrap.cpp:5949:18: warning: exception of type 'const char *' will be caught by earlier handler [-Wexceptions]
+    catch (const char *e) {
+                 ^
+mecab_wrap.cpp:5946:12: note: for type 'char *'
+    catch (char *e) {
+           ^
+mecab_wrap.cpp:5996:18: warning: exception of type 'const char *' will be caught by earlier handler [-Wexceptions]
+    catch (const char *e) {
+                 ^
+mecab_wrap.cpp:5993:12: note: for type 'char *'
+    catch (char *e) {
+           ^
+mecab_wrap.cpp:6031:18: warning: exception of type 'const char *' will be caught by earlier handler [-Wexceptions]
+    catch (const char *e) {
+                 ^
+mecab_wrap.cpp:6028:12: note: for type 'char *'
+    catch (char *e) {
+           ^
+mecab_wrap.cpp:6102:18: warning: exception of type 'const char *' will be caught by earlier handler [-Wexceptions]
+    catch (const char *e) {
+                 ^
+mecab_wrap.cpp:6099:12: note: for type 'char *'
+    catch (char *e) {
+           ^
+mecab_wrap.cpp:6137:18: warning: exception of type 'const char *' will be caught by earlier handler [-Wexceptions]
+    catch (const char *e) {
+                 ^
+mecab_wrap.cpp:6134:12: note: for type 'char *'
+    catch (char *e) {
+           ^
+mecab_wrap.cpp:6181:18: warning: exception of type 'const char *' will be caught by earlier handler [-Wexceptions]
+    catch (const char *e) {
+                 ^
+mecab_wrap.cpp:6178:12: note: for type 'char *'
+    catch (char *e) {
+           ^
+mecab_wrap.cpp:6262:18: warning: exception of type 'const char *' will be caught by earlier handler [-Wexceptions]
+    catch (const char *e) {
+                 ^
+mecab_wrap.cpp:6259:12: note: for type 'char *'
+    catch (char *e) {
+           ^
+mecab_wrap.cpp:6307:18: warning: exception of type 'const char *' will be caught by earlier handler [-Wexceptions]
+    catch (const char *e) {
+                 ^
+mecab_wrap.cpp:6304:12: note: for type 'char *'
+    catch (char *e) {
+           ^
+75 warnings generated.
+linking shared-object mecab.bundle
+
+current directory: /Users/dominiquechen/workspace/vendor/bundle/ruby/2.5.0/gems/mecab-0.996/ext/mecab
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 mecab.bundle ./.gem.20181207-15158-wsknsx
