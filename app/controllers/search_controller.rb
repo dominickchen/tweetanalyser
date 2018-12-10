@@ -21,7 +21,7 @@ class SearchController < ApplicationController
 
     @Texts = ""
     # 特定ユーザのtimeline取得
-    @client.user_timeline(@username, { count: 50, include_rts: false, exclude_replies: false }).each do |timeline|
+    @client.user_timeline(@username, { count: 200, include_rts: false, exclude_replies: false }).each do |timeline|
       @Texts << @client.status(timeline.id).text
     end
 
@@ -41,11 +41,12 @@ class SearchController < ApplicationController
 
     @ProperNouns = @ProperNouns.sort_by{ | k, v | v }.reverse.to_h
 
-    @ProperNouns.delete_if { |_, v| v < 2 }
+    @ProperNouns.delete_if { |_, v| v < 3 }
     @ProperNouns.delete_if { |k, v| k == "https" }
     @ProperNouns.delete_if { |k, v| k == "t" }
     @ProperNouns.delete_if { |k, v| k == "co" }
     @ProperNouns.delete_if { |k, v| k == "you" }
+    @ProperNouns.delete_if { |k, v| k == "これ" }
 
     @label_string = "\""
     @count_string = ""
